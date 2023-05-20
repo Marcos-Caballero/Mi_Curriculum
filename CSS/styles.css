@@ -31,6 +31,11 @@ body {
 
 a {
     padding: 0px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .name {
@@ -124,6 +129,12 @@ header {
     width: 65%;
 }
 
-.rmvbg {
-    background-color: transparent;
-}
+.left-side h2,
+.left-side div,
+.left-side a,
+.left-side span,
+.left-side p,
+.left-side ul,
+.left-side li {
+    background-color: rgb(170, 170, 170);
+    }
